@@ -10,7 +10,6 @@ $(document).ready(function() {
   $("#q2").click(function(){
     answer2 =$("input:radio[name=music]:checked").val();
     $("#question3").show();
-    $("country").show();
    
   });
   $("#q3").click(function(){

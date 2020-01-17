@@ -55,5 +55,30 @@
   text-align: center;
 }
 #cofeepic{
+  height: 200px;
+  width: 200px;
+}
+#babypic{
+  height: 200px;
+  width: 200px;
+}
+#teenpic{
   display: none;
+  height: 200px;
+  width: 200px;
+}
+#adultpic{
+  display: none;
+  height: 200px;
+  width: 200px;
+}
+#oldpic{
+  display: none;
+  height: 200px;
+  width: 200px;
+}
+#countrypic{
+  /* display: none; */
+  height: 200px;
+  width: 200px;
 }
