@@ -33,3 +33,9 @@
   height: 200px;
   width: 200px;
 }
+#title-section{
+  text-align: center;
+}
+#background{
+  background: linear-gradient(to bottom right, #00cc66 0%, #ccff33 100%);
+}

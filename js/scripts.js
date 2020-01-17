@@ -47,9 +47,5 @@ $(document).ready(function() {
       $("#cplus").hide();
       $("#ruby").show();
     }
-
-
-    
   });
-  
 });
