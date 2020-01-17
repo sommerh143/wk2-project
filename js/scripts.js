@@ -43,7 +43,7 @@ $(document).ready(function() {
     $("#question4").show();
 
     if (answer3 === "coffee"){
-     $("#coffeepic").show();
+     $("#cofeepic").show();
     } else if (answer3 === "tea"){ 
      $("#teapic").show();
     } else if (answer3 === "smoothie") {
@@ -55,9 +55,26 @@ $(document).ready(function() {
   $("#q4").click(function(){
     answer4 = $("#food").val();
     $("#question5").show();
+    if (answer4 === "mexican"){
+      $("#mexicanpic").show();
+     } else if (answer4 === "veggi"){ 
+      $("#veggipic").show();
+     } else if (answer4 === "italian") {
+      $("#italianpic").show();
+     } else {
+       $("#burgurspic").show();
+     }
   });
   $("#q5").click(function(){
     answer5 = $("#vacation").val();
+
+    if (answer5=== "beach"){
+      $("#beachpic").show();
+     } else if (answer5 === "tropical"){ 
+      $("#tropicalpic").show();
+     } else if (answer5 === "artic") {
+      $("#articpic").show();
+     }
 
     if (answer1 === "0-11" && answer2 === "rock" && answer3 === "coffee" && answer4 === "mexican" && answer5 === "beach") {
       $("#csharp").show();

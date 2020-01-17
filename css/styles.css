@@ -13,26 +13,6 @@
 #question5{
   display: none;
 }
-#csharp{
-  display: none;
-  height: 200px;
-  width: 200px;
-}
-#java{
-  display: none;
-  height: 200px;
-  width: 200px;
-}
-#cplus{
-  display: none;
-  height: 200px;
-  width: 200px;
-}
-#ruby{
-  display: none;
-  height: 200px;
-  width: 200px;
-}
 #title-section{
   text-align: center;
 }
@@ -54,65 +34,10 @@
 .center{
   text-align: center;
 }
-#babypic{
+img {
   display: none;
   height: 100px;
   width: 100px;
-}
-#teenpic{
-  display: none;
-  height: 200px;
-  width: 200px;
-}
-#adultpic{
-  display: none;
-  height: 200px;
-  width: 200px;
-}
-#oldpic{
-  display: none;
-  height: 200px;
-  width: 200px;
-}
-#countrypic{
-  display: none;
-  height: 200px;
-  width: 200px;
-}
-#rockpic{
-  display: none;
-  height: 200px;
-  width: 200px;
-}
-#rappic{
-  display: none;
-  height: 200px;
-  width: 200px;
-}
-#edmpic{
-  display: none;
-  height: 200px;
-  width: 200px;
-}
-#cofeepic{
-  display: none;
-  height: 200px;
-  width: 200px;
-}
-#teapic{
-  display: none;
-  height: 200px;
-  width: 200px;
-}
-#smoothiepic{
-  display: none;
-  height: 200px;
-  width: 200px;
-}
-#waterpic{
-  display: none;
-  height: 200px;
-  width: 200px;
 }
 
 
