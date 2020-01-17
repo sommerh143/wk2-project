@@ -5,14 +5,18 @@ $(document).ready(function() {
   $("#q1").click(function(){
     answer1 =$("input:radio[name=age]:checked").val();
     $("#question2").show();
+    
   });
   $("#q2").click(function(){
     answer2 =$("input:radio[name=music]:checked").val();
     $("#question3").show();
+    $("country").show();
+   
   });
   $("#q3").click(function(){
     answer3 =$("input:radio[name=drink]:checked").val();
     $("#question4").show();
+    $("#cofee").show();
   });
   $("#q4").click(function(){
     answer4 = $("#food").val();
@@ -42,7 +46,7 @@ $(document).ready(function() {
     } else  {
       $("#java").hide();
       $("#csharp").hide();
-      $("#cplus").show();
+      $("#cplus").hide();
       $("#ruby").show();
       $("#info4").show();
     } 
