@@ -3,24 +3,34 @@ $(document).ready(function() {
     $("#question1").show();
   });
   $("#q1").click(function(){
-    var ageanswer1 =$("input:radio[name=age]:checked").val();
+    answer1 =$("input:radio[name=age]:checked").val();
     $("#question2").show();
   });
   $("#q2").click(function(){
-    var ageanswer2 =$("input:radio[name=music]:checked").val();
+    answer2 =$("input:radio[name=music]:checked").val();
     $("#question3").show();
   });
   $("#q3").click(function(){
-    var ageanswer3 =$("input:radio[name=drink]:checked").val();
+    answer3 =$("input:radio[name=drink]:checked").val();
     $("#question4").show();
   });
   $("#q4").click(function(){
-    var foodanswer = $("#food").val();
+    answer4 = $("#food").val();
     $("#question5").show();
   });
   $("#q5").click(function(){
-    var vacationanswer = $("#vacation").val();
-    alert(ageanswer1);
+    answer5 = $("#vacation").val();
+
+    if (answer1 === "0-11" || "12-19" && answer2 === "rock" || "rap" && answer3 === "coffee" || "tea" && answer4 === "mexican" || "burgurs" && answer5 === "beach" || "tropical") {
+      $("#output").text(answer1 + answer2 + answer3 + answer4 + answer5);
+    } else if (answer1 === "20-30" || "12-19" && answer2 === "rock" || "country" && answer3 === "water" || "tea" && answer4 === "mexican" || "veggi" && answer5 === "artic" || "tropical") {
+      alert("try again");
+    } else {
+      alert ("something");
+    } 
+
+
+    
   });
   
 });
