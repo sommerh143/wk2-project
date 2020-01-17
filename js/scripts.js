@@ -41,7 +41,16 @@ $(document).ready(function() {
   $("#q3").click(function(){
     answer3 =$("input:radio[name=drink]:checked").val();
     $("#question4").show();
-    $("#cofee").show();
+
+    if (answer3 === "coffee"){
+     $("#coffeepic").show();
+    } else if (answer3 === "tea"){ 
+     $("#teapic").show();
+    } else if (answer3 === "smoothie") {
+     $("#smoothiepic").show();
+    } else {
+      $("#waterpic").show();
+    }
   });
   $("#q4").click(function(){
     answer4 = $("#food").val();

@@ -54,11 +54,6 @@
 .center{
   text-align: center;
 }
-#cofeepic{
-  display: none;
-  height: 200px;
-  width: 200px;
-}
 #babypic{
   display: none;
   height: 100px;
@@ -99,3 +94,26 @@
   height: 200px;
   width: 200px;
 }
+#cofeepic{
+  display: none;
+  height: 200px;
+  width: 200px;
+}
+#teapic{
+  display: none;
+  height: 200px;
+  width: 200px;
+}
+#smoothiepic{
+  display: none;
+  height: 200px;
+  width: 200px;
+}
+#waterpic{
+  display: none;
+  height: 200px;
+  width: 200px;
+}
+
+
+
