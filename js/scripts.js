@@ -21,13 +21,32 @@ $(document).ready(function() {
   $("#q5").click(function(){
     answer5 = $("#vacation").val();
 
-    if (answer1 === "0-11" || "12-19" && answer2 === "rock" || "rap" && answer3 === "coffee" || "tea" && answer4 === "mexican" || "burgurs" && answer5 === "beach" || "tropical") {
+    if (answer1 === "0-11" && answer2 === "rock" && answer3 === "coffee" && answer4 === "mexican" && answer5 === "beach") {
       $("#csharp").show();
-    } else if (answer1 === "20-30" || "12-19" && answer2 === "rock" || "country" && answer3 === "water" || "tea" && answer4 === "mexican" || "veggi" && answer5 === "artic" || "tropical") {
-      alert("try again");
+      $("#java").hide;
+      $("#cplus").hide;
+      $("#ruby").hide;
+    } else if (answer1 === "12-19" && answer2 === "rap" && answer3 === "tea" && answer4 === "burgurs" && answer5 === "tropical") {
+      $("#java").show();
+      $("#csharp").hide();
+      $("#cplus").hide();
+      $("#ruby").hide();
+    } else if (answer1 === "20-30" && answer2 === "country" && answer3 === "smoothie" && answer4 === "italian" && answer5 === "artic") {
+      $("#java").hide();
+      $("#csharp").hide();
+      $("#cplus").show();
+      $("#ruby").hide();
+    } else if (answer1 === "30+" && answer2 === "country" && answer3 === "smoothie" && answer4 === "italian" && answer5 === "artic") {
+      $("#java").hide();
+      $("#csharp").hide();
+      $("#cplus").show();
+      $("#ruby").hide();
     } else {
-      alert ("something");
-    } 
+      $("#java").hide();
+      $("#csharp").hide();
+      $("#cplus").hide();
+      $("#ruby").show();
+    }
 
 
     

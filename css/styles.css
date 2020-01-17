@@ -15,15 +15,21 @@
 }
 #csharp{
   display: none;
-  height: fit-content;
-  width: fit-content;
+  height: 200px;
+  width: 200px;
 }
 #java{
   display: none;
+  height: 200px;
+  width: 200px;
 }
 #cplus{
   display: none;
+  height: 200px;
+  width: 200px;
 }
 #ruby{
   display: none;
+  height: 200px;
+  width: 200px;
 }
