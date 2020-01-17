@@ -13,3 +13,17 @@
 #question5{
   display: none;
 }
+#csharp{
+  display: none;
+  height: fit-content;
+  width: fit-content;
+}
+#java{
+  display: none;
+}
+#cplus{
+  display: none;
+}
+#ruby{
+  display: none;
+}

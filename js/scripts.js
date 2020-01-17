@@ -22,7 +22,7 @@ $(document).ready(function() {
     answer5 = $("#vacation").val();
 
     if (answer1 === "0-11" || "12-19" && answer2 === "rock" || "rap" && answer3 === "coffee" || "tea" && answer4 === "mexican" || "burgurs" && answer5 === "beach" || "tropical") {
-      $("#output").text(answer1 + answer2 + answer3 + answer4 + answer5);
+      $("#csharp").show();
     } else if (answer1 === "20-30" || "12-19" && answer2 === "rock" || "country" && answer3 === "water" || "tea" && answer4 === "mexican" || "veggi" && answer5 === "artic" || "tropical") {
       alert("try again");
     } else {
