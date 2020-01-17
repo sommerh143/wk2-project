@@ -26,26 +26,25 @@ $(document).ready(function() {
       $("#java").hide;
       $("#cplus").hide;
       $("#ruby").hide;
+      $("#info2").show();
     } else if (answer1 === "12-19" && answer2 === "rap" && answer3 === "tea" && answer4 === "burgurs" && answer5 === "tropical") {
       $("#java").show();
       $("#csharp").hide();
       $("#cplus").hide();
       $("#ruby").hide();
+      $("#info3").show();
     } else if (answer1 === "20-30" && answer2 === "country" && answer3 === "smoothie" && answer4 === "italian" && answer5 === "artic") {
       $("#java").hide();
       $("#csharp").hide();
       $("#cplus").show();
       $("#ruby").hide();
-    } else if (answer1 === "30+" && answer2 === "country" && answer3 === "smoothie" && answer4 === "italian" && answer5 === "artic") {
+      $("#info4").show();
+    } else  {
       $("#java").hide();
       $("#csharp").hide();
       $("#cplus").show();
-      $("#ruby").hide();
-    } else {
-      $("#java").hide();
-      $("#csharp").hide();
-      $("#cplus").hide();
       $("#ruby").show();
-    }
+      $("#info4").show();
+    } 
   });
 });
