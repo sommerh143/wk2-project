@@ -4,13 +4,39 @@ $(document).ready(function() {
   });
   $("#q1").click(function(){
     answer1 =$("input:radio[name=age]:checked").val();
-    $("#question2").show();
+    
+    if (answer1 === "0-11") {
+      $("#babypic").show();
+      $("#question2").show();
+    } else if (answer1 === "12-19") {
+      $("#teenpic").show();
+      $("#question2").show();
+    } else if (answer1 === "20-30") {
+      $("#adultpic").show();
+      $("#question2").show();
+    } else {
+      $("#oldpic").show();
+      $("#question2").show();
+    }
+
+    
     
   });
   $("#q2").click(function(){
     answer2 =$("input:radio[name=music]:checked").val();
     $("#question3").show();
    
+   if (answer2 === "rock"){
+     $("#rockpic").show();
+   } else if (answer2 === "rap"){
+    $("#rappic").show();
+   } else if (answer2 === "country"){ 
+    $("#countrypic").show();
+   } else {
+    $("#edmpic").show();
+   }
+
+
   });
   $("#q3").click(function(){
     answer3 =$("input:radio[name=drink]:checked").val();
