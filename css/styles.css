@@ -1,16 +1,4 @@
-#question1{
-  display: none;
-}
-#question2{
-  display: none;
-}
-#question3{
-  display: none;
-}
-#question4{
-  display: none;
-}
-#question5{
+.question{
   display: none;
 }
 #title-section{
@@ -19,19 +7,8 @@
 #background{
   background: linear-gradient(to bottom right, #00cc66 0%, #ccff33 100%);
 }
-#info5{
-  display: none;
-}
-#info4{
-  display: none;
-}
-#info3{
-  display: none;
-}
-#info2{
-  display: none;
-}
 .center{
+  display: none;
   text-align: center;
 }
 img {

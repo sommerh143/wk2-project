@@ -17,10 +17,7 @@ $(document).ready(function() {
     } else {
       $("#oldpic").show();
       $("#question2").show();
-    }
-
-    
-    
+    }    
   });
   $("#q2").click(function(){
     answer2 =$("input:radio[name=music]:checked").val();
