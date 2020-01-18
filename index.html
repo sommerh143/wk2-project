@@ -11,196 +11,198 @@
     <title>Programming Langguage Suggester</title>
   </head>
   <body>
-    <div id="background">
-      <div class="container">
-        <div id="title-section">
-          <h1>Programming Language Suggester</h1>
-          <p>Take this multiple choice quize to find out what Programming Language works best for you!</p>
-          <button id="start" class="btn-submit">Start! Quize</button>
+    <div class="well">
+      <div id="background">
+        <div class="container">
+          <div id="title-section">
+            <h1>Programming Language Suggester</h1>
+            <p>Take this multiple choice quize to find out what Programming Language works best for you!</p>
+            <button id="start" class="btn-submit">Start! Quize</button>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="question" id="question1">
+                <h3>What is your age?</h3>
+                <form id="how old are you?">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="age" value="0-11">0-11
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                    <input type="radio" name=age value="12-19">12-19
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                    <input type="radio" name="age" value="20-30">20-30
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="age" value="31+">31+
+                    </label>
+                  </div>                  
+                </form>
+                <button id="q1" type="submit">Next</button>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <img id="babypic" src="img/toddler.jpg" alt="baby">
+              <img id="teenpic" src="img/teen.jpg" alt="teen">
+              <img id="adultpic" src="img/adult.jpg" alt="adult">
+              <img id="oldpic" src="img/old.jpg" alt="old">
+            </div>
+
+          <div class="col-md-3">
+            <div class="question" id="question2">
+              <h3>what is your fave type of music?</h3>
+              <form id="musicq">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="music" value="rock">Hard Rock
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                  <input type="radio" name="music" value="rap">Rap
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="music" value="country">Country
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="music" value="edm">EDM
+                  </label>
+                </div>
+              </form>
+              <button id="q2" type="submit">Next</button>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img id="rockpic"src="img/rock.jpg" alt="rock">
+            <img id="rappic" src="img/rap.jpg" alt="rap">
+            <img id="countrypic" src="img/country.jpg" alt="country">
+            <img id="edmpic" src="img/edm.jpg" alt="edm">
+          </div>
         </div>
+
         <div class="row">
           <div class="col-md-3">
-            <div class="question" id="question1">
-              <h3>What is your age?</h3>
-              <form id="how old are you?">
+            <div class="question" id="question3">
+              <h3>what is your fave type of drink?</h3>
+              <form id="drinksq">
                 <div class="radio">
                   <label>
-                    <input type="radio" name="age" value="0-11">0-11
+                    <input type="radio" name="drink" value="coffee">Coffee
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                  <input type="radio" name=age value="12-19">12-19
+                    <input type="radio" name="drink" value="tea">Tea
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                  <input type="radio" name="age" value="20-30">20-30
+                    <input type="radio" name="drink" value="smoothie">Smoothie
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="age" value="31+">31+
+                    <input type="radio" name="drink" value="water">Water
                   </label>
-                </div>                  
+                </div>
               </form>
-              <button id="q1" type="submit">Next</button>
+              <button id="q3" type="submit">Next</button>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <img id="cofeepic" src="img/coffee.jpg" alt="coffee">
+              <img id ="teapic" src="img/tea.jpg" alt="tea">
+              <img id="smoothiepic" src="img/smoothie.jpg" alt="smoothie">
+              <img id="waterpic" src="img/water.jpg" alt="water">
+            </div>
+          
+          <div class="col-md-3">
+            <div class="question" id="question4">
+              <h3>What is your fave food?</h3>
+              <form id="food">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="food" value="mexican">Mexican
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="food" value="italian">Italian
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="food" value="veggi">Veggetarian
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="food" value="burgurs">Burgurs
+                  </label>
+                </div>
+              </form>
+              <button id="q4">Submit</button>
             </div>
           </div>
-          <div class="col-md-3">
-            <img id="babypic" src="img/toddler.jpg" alt="baby">
-            <img id="teenpic" src="img/teen.jpg" alt="teen">
-            <img id="adultpic" src="img/adult.jpg" alt="adult">
-            <img id="oldpic" src="img/old.jpg" alt="old">
-          </div>
-
-        <div class="col-md-3">
-          <div class="question" id="question2">
-            <h3>what is your fave type of music?</h3>
-            <form id="musicq">
-              <div class="radio">
-                <label>
-                  <input type="radio" name="music" value="rock">Hard Rock
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                <input type="radio" name="music" value="rap">Rap
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="music" value="country">Country
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="music" value="edm">EDM
-                </label>
-              </div>
-            </form>
-            <button id="q2" type="submit">Next</button>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <img id="rockpic"src="img/rock.jpg" alt="rock">
-          <img id="rappic" src="img/rap.jpg" alt="rap">
-          <img id="countrypic" src="img/country.jpg" alt="country">
-          <img id="edmpic" src="img/edm.jpg" alt="edm">
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-3">
-          <div class="question" id="question3">
-            <h3>what is your fave type of drink?</h3>
-            <form id="drinksq">
-              <div class="radio">
-                <label>
-                  <input type="radio" name="drink" value="coffee">Coffee
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="drink" value="tea">Tea
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="drink" value="smoothie">Smoothie
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="drink" value="water">Water
-                </label>
-              </div>
-            </form>
-            <button id="q3" type="submit">Next</button>
+            <div class="col-md-3">
+              <img id="mexicanpic" src="img/mexican.jpg" alt="mexican food">
+              <img id="italianpic"src="img/italian.jpg" alt="italian food">
+              <img id="veggipic" src="img/veggie.jpg" alt="veggipic">
+              <img id="burgerpic" src="img/burgure.jpg" alt="burgerpic">
             </div>
           </div>
-          <div class="col-sm-3">
-            <img id="cofeepic" src="img/coffee.jpg" alt="coffee">
-            <img id ="teapic" src="img/tea.jpg" alt="tea">
-            <img id="smoothiepic" src="img/smoothie.jpg" alt="smoothie">
-            <img id="waterpic" src="img/water.jpg" alt="water">
-          </div>
         
-        <div class="col-md-3">
-          <div class="question" id="question4">
-            <h3>What is your fave food?</h3>
-            <form id="food">
-              <div class="radio">
-                <label>
-                  <input type="radio" name="food" value="mexican">Mexican
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="food" value="italian">Italian
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="food" value="veggi">Veggetarian
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="food" value="burgurs">Burgurs
-                </label>
-              </div>
-            </form>
-            <button id="q4">Submit</button>
-          </div>
-        </div>
+        <div class="row">
           <div class="col-md-3">
-            <img id="mexicanpic" src="img/mexican.jpg" alt="mexican food">
-            <img id="italianpic"src="img/italian.jpg" alt="italian food">
-            <img id="veggipic" src="img/veggie.jpg" alt="veggipic">
-            <img id="burgerpic" src="img/burgure.jpg" alt="burgerpic">
+            <div class="question" id="question5">
+              <h3>What is your fave vacation spot?</h3>
+              <form id="vacation">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="vacation" value="beach">Beach
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                  <input type="radio" name="vacation" value="tropical">Tropical Island
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                  <input type="radio" name="vacation" value="artic">Artic
+                  </label>
+                </div>
+                </form>
+              <button id="q5">Submit</button>
+            </div>
           </div>
-        </div>
-      
-      <div class="row">
-        <div class="col-md-3">
-          <div class="question" id="question5">
-            <h3>What is your fave vacation spot?</h3>
-            <form id="vacation">
-              <div class="radio">
-                <label>
-                  <input type="radio" name="vacation" value="beach">Beach
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                <input type="radio" name="vacation" value="tropical">Tropical Island
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                <input type="radio" name="vacation" value="artic">Artic
-                </label>
-              </div>
-              </form>
-            <button id="q5">Submit</button>
-          </div>
-        </div>
+            <div class="col-md-3">
+              <img id="beachpic" src="img/beach.jpg" alt="Beach">
+              <img id="tropicalpic" src="img/tropical.jpg" alt="Tropical">
+              <img id="articpic" src="img/artic.jpg" alt="Artic">
+            </div>
+          
           <div class="col-md-3">
-            <img id="beachpic" src="img/beach.jpg" alt="Beach">
-            <img id="tropicalpic" src="img/tropical.jpg" alt="Tropical">
-            <img id="articpic" src="img/artic.jpg" alt="Artic">
-          </div>
-        
-        <div class="col-md-3">
-          <img id="csharp" src="img/C_Sharp_logo.png" alt="csharp">
-          <img id="java" src="img/javascript-logo.png">
-          <img id="cplus" src="img/C++.png">
-          <img id="ruby" src="img/ruby.jpg">
-          <p class="center" id="info5">Based on the information you gave, it looks like you should start your coding career learing Ruby!</p>
-          <p class="center" id="info4">Based on the information you gave, it looks like you should start your coding career learing C ++!</p> 
-          <p class="center" id="info3">Based on the information you gave, it looks like you should start your coding career learing Java!</p>
-          <p class="center" id="info2">Based on the information you gave, it looks like you should start your coding career learing C #!</p>
+            <img id="csharp" src="img/C_Sharp_logo.png" alt="csharp">
+            <img id="java" src="img/javascript-logo.png">
+            <img id="cplus" src="img/C++.png">
+            <img id="ruby" src="img/ruby.jpg">
+            <p class="center" id="info5">Based on the information you gave, it looks like you should start your coding career learing Ruby!</p>
+            <p class="center" id="info4">Based on the information you gave, it looks like you should start your coding career learing C ++!</p> 
+            <p class="center" id="info3">Based on the information you gave, it looks like you should start your coding career learing Java!</p>
+            <p class="center" id="info2">Based on the information you gave, it looks like you should start your coding career learing C #!</p>
+            </div>
           </div>
         </div>
       </div>

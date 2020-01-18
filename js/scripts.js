@@ -96,7 +96,7 @@ $(document).ready(function() {
       $("#csharp").hide();
       $("#cplus").hide();
       $("#ruby").show();
-      $("#info4").show();
+      $("#info5").show();
     } 
   });
 });
