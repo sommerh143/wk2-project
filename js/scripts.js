@@ -53,7 +53,7 @@ $(document).ready(function() {
     }
   });
   $("#q4").click(function(){
-    answer4 = $("#food").val();
+    answer4 =$("input:radio[name=food]:checked").val();
     $("#question5").show();
     if (answer4 === "mexican"){
       $("#mexicanpic").show();
@@ -62,11 +62,11 @@ $(document).ready(function() {
      } else if (answer4 === "italian") {
       $("#italianpic").show();
      } else {
-       $("#burgurspic").show();
+       $("#burgerpic").show();
      }
   });
   $("#q5").click(function(){
-    answer5 = $("#vacation").val();
+    answer5 =$("input:radio[name=vacation]:checked").val();
 
     if (answer5=== "beach"){
       $("#beachpic").show();
