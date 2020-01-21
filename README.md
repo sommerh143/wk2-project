@@ -27,6 +27,9 @@ the background only shows upi when you hit the answer buttons
 
 }_
 
+## GH Pages Link
+_{https://sommerh143.github.io/wk2-project/}_
+
 ## Support and contact details
 
 _{contack info: email- sommerh143@yahoo.com}_
