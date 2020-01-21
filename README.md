@@ -28,7 +28,8 @@ the background only shows upi when you hit the answer buttons
 }_
 
 ## GH Pages Link
-_{https://sommerh143.github.io/wk2-project/}_
+_{https://sommerh143.github.io/wk2-project/   
+}_
 
 ## Support and contact details
 
