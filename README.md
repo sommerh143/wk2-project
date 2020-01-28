@@ -33,7 +33,7 @@ _https://sommerh143.github.io/wk2-project/_
 
 ## Support and contact details
 
-_contack info: email- sommerh143@yahoo.com_
+_contact info: email- sommerh143@yahoo.com_
 
 ## Technologies Used
 * jQuery
