@@ -1,4 +1,4 @@
-# _Programing language suvey_
+# _Programing Language Survey_
 
 #### _WK Two friday progect, 01/17/2020_
 
@@ -6,26 +6,27 @@
 
 ## Description
 
-_When you first open the website it tells you about the survey you are about to fill out. once you hit the start button it directs you to the first question and depending on the answer to the question an image will pop up. once you answer all 5 questions it will give you the programming language you should learn first. there are still alot of bugs to figure out. for instance the answer at the end will always be ruby unless you hit the exact pattern i made for the other languages. another one is the pictures will stay until you refresh the page._
+When you first open the website it tells you about the survey you are about to fill out. once you hit the start button it directs you to the first question and depending on the answer to the question an image will pop up. once you answer all 5 questions it will give you the programming language you should learn first. there are still alot of bugs to figure out. for instance the answer at the end will always be ruby unless you hit the exact pattern i made for the other languages. another one is the pictures will stay until you refresh the page.
 
 ## Setup/Installation Requirements
+ 
 
-* go to https://github.com/sommerh143/wk2-project
-* click clone or download, and copy the url in  the box
-* navigate over to the terinal
-* in the termal go to cd desktop
-* in the desktop file type clone and paste the url
-* cd to the new foler 
-* when in new foler elxplorer .
+* Clone this repositorhy
+* Open Terminal
+* in the terminal cd to desktop
+* once in desktop type " git clone https://github.com/sommerh143/wk2-project.git "
+* then cd into the file created
+* type code . and you will be able to open it in visual studios
+* if you want open the webpage you can drag the index.html file to a window and it should run the program.
 
 
 ## Known Bugs
 
-_Ruby will allways be the out come answer unless you hit the correct answer pattern
+Ruby will allways be the out come answer unless you hit the correct answer pattern
 
 images will stay until you refesh the page
 
-the background only shows upi when you hit the answer buttons_
+the background only shows upi when you hit the answer buttons
 
 ## GH Pages Link
 _https://sommerh143.github.io/wk2-project/_
@@ -35,11 +36,15 @@ _https://sommerh143.github.io/wk2-project/_
 _contack info: email- sommerh143@yahoo.com_
 
 ## Technologies Used
+* jQuery
+* JavaScript
+* Bootstrap version 3.3.7
+* Visual Studio Code
+* HTML
+* CSS
 
-_{}_
+### Legal
 
-### License
-
-*Used under GitHub*
+*This software is licensed under the MIT license*
 
 Copyright (c) 2020 **_Sommer Howe_**

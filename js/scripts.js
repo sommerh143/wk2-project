@@ -3,8 +3,7 @@ $(document).ready(function() {
     $("#question1").show();
   });
   $("#q1").click(function(){
-    answer1 =$("input:radio[name=age]:checked").val();
-    
+    var answer1 = $("input:radio[name=age]:checked").val();
     if (answer1 === "0-11") {
       $("#babypic").show();
       $("#question2").show();
@@ -20,7 +19,7 @@ $(document).ready(function() {
     }    
   });
   $("#q2").click(function(){
-    answer2 =$("input:radio[name=music]:checked").val();
+    var answer2 = $("input:radio[name=music]:checked").val();
     $("#question3").show();
    
    if (answer2 === "rock"){
@@ -32,13 +31,10 @@ $(document).ready(function() {
    } else {
     $("#edmpic").show();
    }
-
-
   });
   $("#q3").click(function(){
-    answer3 =$("input:radio[name=drink]:checked").val();
+    var answer3 = $("input:radio[name=drink]:checked").val();
     $("#question4").show();
-
     if (answer3 === "coffee"){
      $("#cofeepic").show();
     } else if (answer3 === "tea"){ 
@@ -50,7 +46,7 @@ $(document).ready(function() {
     }
   });
   $("#q4").click(function(){
-    answer4 =$("input:radio[name=food]:checked").val();
+    var answer4 = $("input:radio[name=food]:checked").val();
     $("#question5").show();
     if (answer4 === "mexican"){
       $("#mexicanpic").show();
@@ -63,8 +59,7 @@ $(document).ready(function() {
      }
   });
   $("#q5").click(function(){
-    answer5 =$("input:radio[name=vacation]:checked").val();
-
+    var answer5 = $("input:radio[name=vacation]:checked").val();
     if (answer5=== "beach"){
       $("#beachpic").show();
      } else if (answer5 === "tropical"){ 
@@ -72,14 +67,13 @@ $(document).ready(function() {
      } else if (answer5 === "artic") {
       $("#articpic").show();
      }
-
     if (answer1 === "0-11" && answer2 === "rock" && answer3 === "coffee" && answer4 === "mexican" && answer5 === "beach") {
       $("#csharp").show();
-      $("#java").hide;
-      $("#cplus").hide;
-      $("#ruby").hide;
+      $("#java").hide();
+      $("#cplus").hide();
+      $("#ruby").hide();
       $("#info2").show();
-    } else if (answer1 === "12-19" && answer2 === "rap" && answer3 === "tea" && answer4 === "burgurs" && answer5 === "tropical") {
+    } else if (answer1 === "12-19" && answer2 === "rap" && answer3 === "tea" && answer4 === "burgers" && answer5 === "tropical") {
       $("#java").show();
       $("#csharp").hide();
       $("#cplus").hide();
